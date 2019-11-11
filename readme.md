@@ -23,6 +23,10 @@ php artisan key:generate
 Запустить скрипт генерации таблиц БД
 php artisan migrate
 
+Заполнить бд с помощью seed 
+php artisan db:seed
+Добавляет пользователя и статью для него 
+
 Запустить веб-сервер
 php artisan serve
 
