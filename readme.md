@@ -17,6 +17,9 @@ composer install
 Создать базу данных приложения, выполнив SQL-запрос в MySQL
 CREATE DATABASE `pages` COLLATE 'utf8_general_ci'
 
+Сгенерировать ключ 
+php artisan key:generate
+
 Запустить скрипт генерации таблиц БД
 php artisan migrate
 
